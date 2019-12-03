@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "htp://www.w3.org/TRhtml4loose.dtd">
+<html>
+  <head lang="ja">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title> Practice of HTML by Tsuyoshi Kumamoto</title>
+  </head>
+  
+  <body>
+    <h1>Welcome this page! Practice of HTML.</h1>
+    <img src="~s1250050/Pictures/atamanowaruihito.jpg" alt="あたまのわるいひと"
+	 width"900" height="530">
+    <br>
+    <h2>自己紹介</h2>
+    <ul>
+      <li>名前：隈本剛史</li>
+      <li>学籍番号：s1250050</li>
+      <li>所属サークル：吹奏楽、企画開発部、DMC etc....</li>
+    </ul>
+
+    <a href="./greeting.html">ごあいさつ(?)</a><br>
+    <a href="./hoby.html">趣味 #とは</a><br>
+    <a href="https://twitter.com/dtm0707">遊びにおいでよ！(Twiter)</a>
+    <br>
+    <form action="cgiurl" method="post">
+      <p>text: お名前 <input type="text" name="名前"></p>
+    </form>
+    
+  </body>
+  
+</html>

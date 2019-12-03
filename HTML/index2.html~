@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "htp://www.w3.org/TRhtml4loose.dtd">
+<html>
+  <head lang="ja">
+    <link rel="stylesheet" href="./sty.css" type-"./text/css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title> Practice of HTML by Tsuyoshi Kumamoto</title>
+    <link rel="stylesheet" href="./practiceHTML.css" type="text/css">
+  </head>
+
+  <body>
+    <!-- タイトル -->
+    <h1 class="index-title" align="center">Welcome this page! <br>
+      Practice of HTML.</h1>
+    <img align="center" src="./atamanowaruihito.jpg" alt="あたまのわるいひと"
+	 width"900" height="530">
+    <br>
+    <h2 class="top">自己紹介</h2>
+    <ul>
+      <li>名前：隈本剛史</li>
+      <li>学籍番号：s1250050</li>
+      <li>所属サークル：吹奏楽、企画開発部、DMC etc....</li>
+      <li>一言：間違い探し</li>
+    </ul>
+    <!--各種リンク-->
+    <a href="./greeting.html">ごあいさつ(?)</a><br>
+    <a href="./hoby.html">趣味 #とは</a><br>
+    <a href="https://twitter.com/dtm0707">遊びにおいでよ！(Twiter)</a>
+    <br>
+    <!--フォーム-->
+    <form action="cgiurl" method="post">
+      <p align="center">訪問者アンケート</p>
+      <p align="center">お名前おしえてね<br>
+	<input type="text" name="名前">
+      </p>
+      <p align="center">性別は？<br>
+	<input type="checkbox" name="性別" value="male" >男
+	<input type="checkbox" name="性別" value="female" >女
+	<input type="checkbox" name="性別" value="other" >その他
+      </p>
+      <p align="center">年齢もお聞きしていいですか？<br>
+	<input type="radio" name="age" value="under10">10歳以下
+	<input type="radio" name="age" value="11~19">11~19
+	<input type="radio" name="age" value="over20">20歳以上
+      </p>
+      <p align="center"><input type="submit" value="そうしんぼたん!!"></p>
+      <p align="center"><input type="reset" value="とりけし!!"></p>
+    </form>
+
+  </body>
+
+</html>
